@@ -1,0 +1,23 @@
+void setup() {
+  Serial.begin(9600);
+  pinMode(6, OUTPUT);
+  pinMode(5, OUTPUT);
+}
+void loop() {
+  int sensorValue = analogRead(A0);
+Serial.println(sensorValue);
+
+  
+  if (sensorValue < 30) { // To change the point at which the light turns on change this value.
+    digitalWrite(6, HIGH);
+
+    if (sensorValue < 30) { // To change the point at which the light turns on change this value.
+      digitalWrite(5, HIGH);
+    }
+
+  }
+  else {
+    digitalWrite(6, LOW);
+    digitalWrite(5, LOW);
+  }
+}
