@@ -1,3 +1,13 @@
+/*
+  Code by: Emre Sardogan
+  March 18, 2016 @ Parsons School of Design
+  '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  Credits to: Angelo Casimiro (4/27/14)(Android-Bluetooth)
+            : Shawn Hymel @ SparkFun Electronics(GestureSensor)
+*/              
+
+
+
 //Libraries
 #include <Wire.h>
 #include <SparkFun_APDS9960.h>

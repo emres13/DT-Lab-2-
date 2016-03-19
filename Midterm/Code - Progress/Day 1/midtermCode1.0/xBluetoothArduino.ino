@@ -1,6 +1,6 @@
 void allon(){
      digitalWrite(Ring1, HIGH);
-     digitalWrite(Ring1, HIGH);
+     digitalWrite(Ring2, HIGH);
 
 }
 void alloff(){

@@ -1,4 +1,3 @@
-
 int handleGesture() {
     if ( apds.isGestureAvailable() ) {
     switch ( apds.readGesture() ) {
