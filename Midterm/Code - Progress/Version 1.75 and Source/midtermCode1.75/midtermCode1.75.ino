@@ -40,10 +40,6 @@ String voice;
 //CLEDController *controllers[NUM_STRIPS];
 //uint8_t gBrightness = 255;
 
-
-
-
-
 void setup() {
 
   //NeoPixelRing - Output
@@ -93,10 +89,9 @@ void setup() {
 }
 
 void loop() {
+  
   voiceCommand();
-
-
-
+  
   //Loop 1 - GestureSensor
   if ( isr_flag == 1 ) {
     detachInterrupt(0);

@@ -1,4 +1,4 @@
-int voiceCommand() {
+int voiceCommand() { //functions are in xColorSchemes tab.
 
   if (voice.length() > 0) {
     Serial.println(voice);
