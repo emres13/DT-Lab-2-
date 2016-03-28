@@ -4,13 +4,13 @@ int handleGesture() {
       case DIR_UP:
         //Lights ON
         Serial.println("UP");
-        wakeUp();
+        sleep();
         break;
 
       case DIR_DOWN:
         //Lights OFF
         Serial.println("DOWN");
-        sleep();
+        wakeUp();
         break;
 
       case DIR_LEFT:

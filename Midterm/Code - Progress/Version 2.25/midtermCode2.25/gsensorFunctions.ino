@@ -14,9 +14,7 @@ void wakeUp() {
   colorWipe(pixels.Color(255, 0, 0), 50); // Red
   colorWipe(pixels.Color(0, 255, 0), 50); // Green
   colorWipe(pixels.Color(0, 0, 255), 50); // Blue
-  colorWipe(pixels.Color(0, 0, 128), 50); // Blue
-  colorWipe(pixels.Color(0, 128, 0), 50); // Green
-  colorWipe(pixels.Color(255, 165, 0), 50); // Orange
+
 }
 void sleep() {
 

@@ -8,7 +8,7 @@
             : AdaFruit NeoPixel Library-Example Sketches(NeoPixels)
             : NeoPixel Breathe by beau.turner
 
-            Code Version 2.0
+            Code Version 2.25
             Gesture Sensor (Working + Assigned)
             NeoPixel #1 and #2 (Connected and Working)
             Bluetooth (Connected + Working)
